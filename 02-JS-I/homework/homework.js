@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Danny";
+const nuevaString = "DFMC21";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 30;
 
 // Crea una variable booleana:
-const nuevoBool = false;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,8 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
-  
+  return str; 
 }
 
 function suma(x, y) {
@@ -66,7 +65,6 @@ function sonIguales(x, y) {
   } else {
     return false;
   }
-  
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -196,7 +194,6 @@ function obtenerSaludo(nombre) {
   // Tu código:
   // return "Hola " + nombre + "!";
   return `Hola ${nombre}!`;
-  
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
